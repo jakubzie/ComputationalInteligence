@@ -1,0 +1,4 @@
+Z powodu wysokiej złożoności obliczeniowej jedynie dla 48 miast został sprawdzony parametr prawdopodobienstwa mutacji.
+Doszliśmy do wniosku, że najlepsze wyniki zachodzą dla stosunkowo wysokiej wartości, dlatego dla reszty danych ustawiliśmy
+wartość tego parametru na 0.5. Problem TSP jest złożony i algorytmy łatwo wpadają w minima lokalne dlatego warto częściej
+wprowadzać nowe osobniki do populacji poprzez mutacje.
